@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left:0;
+    padding: 1.5rem;
+    background-color: rgb(24, 85, 104);
+    text-align: right;
+
+}
+
+.link--container{
+   
+}
+
+.header--link{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+
+    margin: 0 1rem;
+}
