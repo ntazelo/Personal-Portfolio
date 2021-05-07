@@ -40,7 +40,7 @@
 }
 
 
-#welcome-section h2{
+#welcome-section h1{
     font-size: 2.5rem;
 }
 
@@ -112,6 +112,41 @@
         column-gap: 2%;
         grid-template-columns: 1fr 1fr;
     }
+}
+
+.footer{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgb(117, 81, 70);
+}
+
+.footer--text h2{
+    font-size: 2.5rem;
+    margin-top: -9rem;
+    font-weight: bolder;
+    color: rgb(215, 221, 221);
+}
+
+.footer--text h5{
+    font-size: 1.3rem;
+    color: rgb(215, 221, 221);
+    font-style: italic;
+}
+
+.social--link{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(215, 221, 221);;
 }
 
 @media (max-width: 700px) {
